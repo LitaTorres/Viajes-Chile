@@ -54,3 +54,11 @@ body * {
     margin-top: -25px;
     margin-bottom: -25px;
 }
+
+.card-destacados {
+    background-color: aqua;
+}
+
+.card img { 
+    height: 12rem;
+}
