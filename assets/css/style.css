@@ -5,8 +5,12 @@ body * {
     font-family: "Raleway", sans-serif;
 }
 
+
+/* NAVBAR */
+
 .navbar {
-    background-color: blue;
+    background-color: transparent;
+    z-index: 2;
 }
 
 .viajes {
@@ -17,4 +21,36 @@ body * {
 .nav-link {
     color: #ffffffa5;
     font-weight: 400;
+}
+
+
+/* CARRUSEL  */
+.carousel-inner {
+    margin-top: -90px;
+}
+
+
+/* QUIENES SOMOS */
+
+.fondo-negro {
+    background-color: black;
+}
+.card-iconos {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    text-align: left;
+    background-color: black;
+    font-size: 13px;
+}
+
+.fondito {
+    background-color: aqua;
+    text-align: center;
+}
+
+.card-body {
+    align-items: center;
+    margin-top: -25px;
+    margin-bottom: -25px;
 }
