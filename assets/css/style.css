@@ -45,7 +45,7 @@ body * {
 }
 
 .fondito {
-    background-color: aqua;
+    background-color:  #00d0ff;
     text-align: center;
 }
 
@@ -56,9 +56,25 @@ body * {
 }
 
 .card-destacados {
-    background-color: aqua;
+    background-color:  #00d0ff;
 }
 
 .card img { 
     height: 12rem;
+}
+
+
+/* FOOTER*/
+
+.footer {
+    background-color: #00d0ff;
+}
+
+.iconos {
+    text-align: end;
+}
+
+.iconos a {
+    color: #FFFFFF;
+    gap: 80px;
 }
