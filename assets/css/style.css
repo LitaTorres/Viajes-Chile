@@ -66,15 +66,19 @@ body * {
 
 /* FOOTER*/
 
-.footer {
+.fondito {
     background-color: #00d0ff;
-}
-
-.iconos {
-    text-align: end;
 }
 
 .iconos a {
     color: #FFFFFF;
-    gap: 80px;
+
+}
+
+.iconos {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
