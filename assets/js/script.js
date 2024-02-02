@@ -1,17 +1,28 @@
 
 $(document).ready(function(){
+    alert("Bienvenido(a) a Viajes Chile");
 
-alert("Bienvenido(a) a Viajes Chile");
+    $(".btn").click(function(){
+        alert("El mensaje ha sido enviado correctamente")
+    });
 
-$(".btn").click(function(){
-    alert("El mensaje ha sido enviado correctamente")
+    $(".card-title").click(function(){
+    $(".card-text2").toggle();    
+    });
+
 });
 
-$(".card-title").click(function(){
-$(".card-text2").toggle();    
+$(document).ready(function(){
+    $(".nav-link").on('click', function(){
+        $(this).css({
+            "font-weight": "bold",
+            "font-size": "20px",
+            "color": "#0022ff"
+        });
+    });
 });
 
-});
+
 
 
 $(document).ready(function () {
@@ -22,7 +33,6 @@ $(document).ready(function () {
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
             }, 500, function () {
-
                 window.location.hash = hash;
             });
         }
